@@ -41,3 +41,28 @@ An end-to-end Data Science project that predicts residential property prices bas
 
 ## 📂 Project Structure
 
+real-estate-price-prediction/
+│
+├── app/
+│ ├── app.py
+│ └── predict_cli.py
+│
+├── data/
+│ └── final_realestate_data.csv
+│
+├── models/
+│ ├── price_model.pkl
+│ └── price_model_rf.pkl
+│
+├── powerbi/
+│ └── RealEstate_Dashboard.pbix
+│
+├── screenshots/
+│ ├── streamlit_app.png
+│ ├── powerbi_dashboard.png
+│ ├── cli_output.png
+│ └── dataset_preview.png
+│
+└── report/
+└── Real_Estate_Price_Prediction_Report.pdf
+
