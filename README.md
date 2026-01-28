@@ -37,32 +37,28 @@ An end-to-end Data Science project that predicts residential property prices bas
 ### CLI Prediction Output
 ![CLI Output](screenshots/cli_output.png)
 
----
 
-## 📂 Project Structure
+## 📁 Folder Description
 
-real-estate-price-prediction/
-│
-├── app/
-│ ├── app.py
-│ └── predict_cli.py
-│
-├── data/
-│ └── final_realestate_data.csv
-│
-├── models/
-│ ├── price_model.pkl
-│ └── price_model_rf.pkl
-│
-├── powerbi/
-│ └── RealEstate_Dashboard.pbix
-│
-├── screenshots/
-│ ├── streamlit_app.png
-│ ├── powerbi_dashboard.png
-│ ├── cli_output.png
-│ └── dataset_preview.png
-│
-└── report/
-└── Real_Estate_Price_Prediction_Report.pdf
+- **app/**  
+  Contains the deployment applications for the project, including the Streamlit web app and the command-line interface (CLI) used for real-time price prediction.
+
+- **data/**  
+  Stores the cleaned and processed dataset used for exploratory data analysis, model training, and evaluation.
+
+- **models/**  
+  Contains the trained machine learning models saved after training, including Linear Regression and Random Forest models.
+
+- **scraper/**  
+  Includes web scraping scripts developed using BeautifulSoup and Selenium for collecting real estate–like data.
+
+- **powerbi/**  
+  Contains the PowerBI dashboard file (.pbix) used for visualizing real estate market trends and insights.
+
+- **screenshots/**  
+  Stores screenshots of the Streamlit app, PowerBI dashboard, CLI output, and dataset preview for documentation and presentation purposes.
+
+- **report/**  
+  Contains the detailed project report in PDF format explaining the complete workflow, results, and conclusions.
+
 
